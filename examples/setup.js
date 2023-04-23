@@ -52,6 +52,9 @@ const db = sqlite3('mydb.sdb', {verbose:console.log})
 // Export:
 exports.db = db
 
+//Workbench to Sqlite
+//Example can be found in dbCreate.js
+
 
 //----- Bcrypt------------------//
 
@@ -64,10 +67,10 @@ const bcrypt = require('bcrypt')
 exports.bcrypt = bcrypt
 
 // Hash password:
-const hash = bcrypt.hashSync(password, 10); // Use in app.js
+const hash = bcrypt.hashSync(`some password`, 10); // Use in app.js
 
 //Check hashed password:
-const check = bcrypt.compareSync(password, hash); // Use in app.js // Returns true or false
+const check = bcrypt.compareSync(`some password`, hash); // Use in app.js // Returns true or false
 
 //Example: 
 if(check){

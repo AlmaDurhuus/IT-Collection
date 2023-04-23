@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Head can be found in partials -->
+    {{>head}}
+<body>
+    <legend>Login:</legend>
+    <form action="/loginHandler?type=login" method="post">
+        <!-- Login inputs --> 
+        <label for="name">Name</label>
+        <input type="text" name="name">
+
+        <label for="password">Password</label>
+        <input type="password" name="password">
+
+        <!-- Submit login-form, button can also be used here -->
+        <input type="submit" value="Submit">
+    </form>
+    
+    <legend>Create account:</legend>
+    <form action="/loginHandler?type=create" method="post">
+        <!-- Login inputs --> 
+        <label for="name">Name</label>
+        <input type="text" name="name">
+
+        <label for="password">Password</label>
+        <input type="password" name="password">
+
+        <!-- Submit login-form, button can also be used here -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

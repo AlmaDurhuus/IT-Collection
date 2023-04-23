@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Head can be found in partials -->
+    {{>head}}
+<body>
+    <h1>Add something to shoppingcart</h1>
+    {{#each items}}
+        <p>Index: {{@index}} </p>
+        <p>Name: {{this.name}} </p>
+        <p>Description: {{this.desc}} </p>
+        <!-- Using query to send information -->
+        <a href="/cartHandler?type=addToCart&id={{this.id}} ">add to cart</a>
+        <p>------------------------------------</p>
+     {{/each}}
+
+    <h1>See the shoppingcart here</h1>
+        {{#each shoppingcart}}
+        <p>Index: {{@index}} </p>
+        <p>Name: {{this.name}} </p>
+        <p>Description: {{this.desc}} </p>
+        <!-- Using query to send information -->
+        <a href="/cartHandler?type=delFromCart&id={{this.id}} ">delete from cart</a>
+        <p>------------------------------------</p>
+     {{/each}}
+    <!-- Here we will delete the whole order -->
+    <a href="/cartHandler?type=delCart&id={{shoppingcart.[0].order_id}} ">delete all</a>
+
+</body>
+</html>
