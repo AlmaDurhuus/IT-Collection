@@ -26,6 +26,9 @@ app.listen(3000, function() {
 //           Examples!             //
 //---------------------------------//
 
+/**
+ * The following examples can also be found in the pdf book: Utvliking English Edition
+ */
 
 //--------Forms ---------------------//
 
@@ -147,6 +150,21 @@ app.get('/cartHandler', (request,response) => {
     }
     response.redirect('/shoppingcart')
 });
+
+
+//------ Access level------------------//
+
+//Also an example on conditional rendering
+app.get('/accesslevel', (request,response) => {
+    const sql = db.prepare('SELECT * FROM accessLevel WHERE id = ?')
+
+    //Try changing between 1-3 and see what happens in http://localhost:3000/accesslevel
+    const result = sql.get(1)
+
+    response.render("accessLevel.hbs", {
+        accessLevel : result.accessLevel,
+    })
+})
 
 
 

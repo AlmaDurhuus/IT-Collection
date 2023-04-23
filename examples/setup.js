@@ -118,3 +118,27 @@ const upload = multer({ storage: storage })
 
 // Export:
 exports.upload = upload
+
+
+//---------- HBS HELPERS----------------//
+
+//-------AccessLevel-------------------//
+
+//This also counts as conditional rendering
+
+//a custom helper that takes multiple arguments and compares them
+hbs.registerHelper('ifAnyEqual', function() {
+  // Convert the arguments object to an array and extract the options object
+  const args = Array.from(arguments);
+  const options = args.pop();
+
+  // Compare each argument to the next argument
+  for (let i = 0; i < args.length; i += 1) {
+    if (args[i] === args[i + 1]) {
+      // Render the contents of the {{#if}} block if any two arguments are equal
+      return options.fn(this);
+    }
+  }
+  // Render the contents of the {{else}} block if no arguments are equal
+  return options.inverse(this);
+});

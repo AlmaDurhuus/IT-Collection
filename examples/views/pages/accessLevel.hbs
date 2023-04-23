@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Head can be found in partials -->
+    {{>head}}
+<body>
+    <!-- this page should render differently depending on the access level -->
+        <h2>Welcome to your dashboard!</h2>
+        <p>Change access level in app.js</p>
+
+<!-- CUTSOM HELPER! it can be found in setup.js -->
+{{#ifAnyEqual accessLevel "Administrator" }}
+    <p>You have access to Administrator features.</p>
+
+    {{else ifAnyEqual accessLevel "Advanced"}} <!-- This works just like else if -->
+    <p>You have advanced access.</p>
+
+    {{else ifAnyEqual accessLevel "Basic"}}
+    <p>You have basic access.</p>
+
+    {{else}}
+    <p>You don't have access to this page.</p>
+{{/ifAnyEqual}}
+
+</body>
+</html>
