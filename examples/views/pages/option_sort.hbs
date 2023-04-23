@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Head can be found in partials -->
+    {{>head}}
+<body>
+    <!-- The change will be handled in client.js -->
+    <select name="option" id="option" onchange="optionSort()">
+        <option value="none" selected>-none-</option>
+        {{#each type}}
+            <option value="{{this.type}}"> {{this.type}} </option>
+        {{/each}}
+    </select>
+
+    {{#each items}}
+        <div id="{{this.type}}" class="item">
+            <p>Name: {{this.name}}  </p>
+            <p>Type {{this.type}}: </p>
+            <p>--------------------------</p>
+        </div>
+    {{/each}}
+
+    <script src="js/client.js"></script>
+</body>
+</html>

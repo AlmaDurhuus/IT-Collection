@@ -167,4 +167,23 @@ app.get('/accesslevel', (request,response) => {
 })
 
 
+//----- Options/sort-------------------//
 
+app.get('/option_sort', (request,response) => {
+    //Using inner join to get the type name
+    const sql = db.prepare(`
+        SELECT *
+        FROM sort_items
+        JOIN sort_type ON sort_items.type_id = sort_type.id
+    `)
+    const result = sql.all()
+
+    //Select all types
+    const sql2 = db.prepare(`SELECT * FROM sort_type`)
+    const result2 = sql2.all()
+
+    response.render("option_sort.hbs", {
+        items: result,
+        type : result2
+    })
+})
