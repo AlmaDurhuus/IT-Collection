@@ -159,7 +159,7 @@ app.get('/accesslevel', (request,response) => {
     const sql = db.prepare('SELECT * FROM accessLevel WHERE id = ?')
 
     //Try changing between 1-3 and see what happens in http://localhost:3000/accesslevel
-    const result = sql.get(1)
+    const result = sql.get(3)
 
     response.render("accessLevel.hbs", {
         accessLevel : result.accessLevel,
