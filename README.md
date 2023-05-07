@@ -27,6 +27,18 @@ Please feel free to use these resources to your advantage, and if you have any s
   - [Ergonomics](#ergonomics)
   - [Privacy/GDPR](#privacygdpr)
   - [Various methods to contact users](#various-methods-to-contact-users)
+  
+  
+## Getting Started
+
+Welcome to this project! It can be overwhelming to navigate through all the information provided, so we've put together some tips to help you get started.
+
+- Download the PDF files for better viewing experience.
+- Get yourself oriented with the project structure and contents.
+- Read the material carefully before exams!
+- Take your time to understand the concepts and ask questions if you need clarification.
+- Use the code snippets and examples provided to practice and apply the concepts learned.
+- Finally, don't be overwhelmed by the amount of information. Take it one section at a time and you'll get there!
 
 ## Utvikling
 
