@@ -56,7 +56,7 @@ In addition to the tutorials included in this repository, I have also included s
 - [W3School Node.js Tutorials](https://www.w3schools.com/nodejs/default.asp)
 - [HBS documantation](https://www.npmjs.com/package/hbs)
 - [Børges Collection](https://github.com/boggarp/Utvikling)
-  - [Utvikling Book (Børges veriosn)](https://indd.adobe.com/view/38062418-9d87-4b6e-b4fb-c907cd10f942)
+  - [Utvikling Book (Børges version)](https://indd.adobe.com/view/38062418-9d87-4b6e-b4fb-c907cd10f942)
   - [Express Starting point](https://github.com/boggarp/Express-Handlebars---Utganspunkt-v2)
   - [Cheatsheet](https://github.com/boggarp/Utvikling#cheatsheet)
   - [Azure Deployment](https://github.com/boggarp/Utvikling/tree/main/Web-Applikasjoner%20-%20Klient%20og%20Server/Leksjon%2014%20-%20Azure%20Deployment)
