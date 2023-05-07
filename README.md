@@ -22,8 +22,11 @@ Please feel free to use these resources to your advantage, and if you have any s
   - [Project Files](#project-files-1)
 
 [Brukerstøtte](#brukerstøtte)
-
-
+  - [Introduction](#introduction-2)
+  - [HMS](#hms)
+  - [Ergonomics](#ergonomics)
+  - [Privacy/GDPR](#privacygdpr)
+  - [Various methods to contact users](#various-methods-to-contact-users)
 
 ## Utvikling
 
