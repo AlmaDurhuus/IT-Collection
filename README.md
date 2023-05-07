@@ -89,7 +89,7 @@ In addition to the tutorials included in this repository, I have also included s
 ### Project Files
 You can find the project files and tutorials related to Windows Server 2019 in the `Drift` folder, which contains:
 
--[Drift Book](https://github.com/AlmaDurhuus/Code-Examples/blob/master/Drift/Drift.pdf)
+- [Drift Book](https://github.com/AlmaDurhuus/Code-Examples/blob/master/Drift/Drift.pdf)
 
 If you have any questions or suggestions for additional resources, feel free to reach out!
 
