@@ -86,6 +86,7 @@ In addition to the tutorials included in this repository, I have also included s
 
 - [Cisco Commands by Erik](https://github.com/Kireobat/ciscoCommands)
 - [DHCP for many VLAN's](https://www.youtube.com/watch?v=HmtxH5UlIS8)
+- [Subnet Mask](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/)
 - [What is DMZ](https://www.fortinet.com/resources/cyberglossary/what-is-dmz)
   - [DMZ example video](https://www.youtube.com/watch?v=MGNKjdGGRk0)
 - [Tony Website](https://2itk.teknoblogg.no/2a/)
