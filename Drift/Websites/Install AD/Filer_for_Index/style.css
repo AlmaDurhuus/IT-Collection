@@ -1,0 +1,72 @@
+/*
+Theme Name:     Newspaper Child theme
+Theme URI: 		http://themeforest.net/user/tagDiv/portfolio
+Description:    Child theme made by tagDiv
+Author:         tagDiv
+Author URI: 	http://themeforest.net/user/tagDiv/portfolio
+Template:       Newspaper
+Version:        9.0c
+*/
+
+
+/*  ----------------------------------------------------------------------------
+    This file will load automatically when the child theme is active. You can use it
+    for custom CSS.
+*/
+
+
+.coffee_box {
+    /*background: #148bbd;*/
+    background: #000000;
+    /* border: 1px solid #ccc!important; */
+    border-radius: 10px;
+    padding: 40px 40px 40px 40px;
+    margin-bottom: 40px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+h3.coffee_box_heading {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffd761;
+    font-weight: 600;
+}
+
+p.coffee_box_content {
+    font-size: 20px;
+    line-height: 1.7;
+    margin: 0 0 20px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.coffee_box_img {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.coffee_box_img a {
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    outline: none;
+}
+
+.coffee_box_img img {
+    background: #ffffff;
+    padding: 10px 40px 10px 40px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.coffee_box .coffee_box_thanku{
+    color:#ffffff;
+    text-align: center;
+    font-style: italic;
+}
+
+
