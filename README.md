@@ -83,8 +83,10 @@ In this section, you will find resources related to Windows Server 2019, VLAN, C
 - [Download Server and Client](https://portal.azure.com/#view/Microsoft_Azure_Education/EducationMenuBlade/~/software)
 
 In addition to the tutorials included in this repository, I have also included some useful links to external resources:
-
+ 
 - [Cisco Commands by Erik](https://github.com/Kireobat/ciscoCommands)
+- [Sharing folders as a drive](https://www.youtube.com/watch?v=ncWDM8i5Fp4)
+- [Configure home folder for AD users](https://www.youtube.com/watch?v=sJ_E7I4CHw0)
 - [DHCP for many VLAN's](https://www.youtube.com/watch?v=HmtxH5UlIS8)
 - [Subnet Mask](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/)
 - [What is DMZ](https://www.fortinet.com/resources/cyberglossary/what-is-dmz)
