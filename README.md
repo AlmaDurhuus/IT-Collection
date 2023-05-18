@@ -81,6 +81,7 @@ In this section, you will find resources related to Windows Server 2019, VLAN, C
 
 - [Download Cisco](https://skillsforall.com/resources/lab-downloads?courseLang=en-US)
 - [Download Server and Client](https://portal.azure.com/#view/Microsoft_Azure_Education/EducationMenuBlade/~/software)
+- [Download pfSense](https://www.pfsense.org/download/) 
 
 In addition to the tutorials included in this repository, I have also included some useful links to external resources:
  
