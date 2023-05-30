@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Head can be found in partials -->
+    {{>head}}
+<body>
+
+    <!-- When changed run a function from client.js named amount() -->
+   <input type="number" name="amount" value="{{amount}}" id="amount" onchange="amount('amount')">
+    
+    <p>Reload and see the number change!</p>
+    <p>Amount in database: <span id="number">{{amount}}</span> </p>
+
+
+
+    <script src="js/client.js"></script>
+
+</body>
+</html>

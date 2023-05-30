@@ -187,3 +187,29 @@ app.get('/option_sort', (request,response) => {
         type : result2
     })
 })
+
+//------- Amount------------------------//
+
+app.get('/amount', (request,response) => {
+    
+    //Select amount in database
+    const sql = db.prepare('SELECT * FROM amount WHERE id = 1')
+    const result = sql.get()
+
+    //Only show the number
+    response.render("amount.hbs", {
+        amount : result.number
+    })
+})
+
+app.get('/setAmount', (request,response) => {
+    const number = request.query.amount
+    console.log(number)
+
+    //Update amount in database
+    const sql = db.prepare('UPDATE amount SET number= ? WHERE id= 1')
+    const result = sql.run(number)
+
+    const data = {amount: number}
+    response.send(data)
+})

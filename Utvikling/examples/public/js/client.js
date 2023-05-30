@@ -14,3 +14,19 @@ function optionSort() {
     }
   }
   
+
+// ------- Amount --------------//
+
+function amount(id){
+
+  const value = document.getElementById(id).value;
+  const numberSpan = document.getElementById('number');
+
+  (async () => {
+
+    const result = await fetch(`/setAmount?amount=${value}`);
+    const json = await result.json();
+
+    numberSpan.innerText = json.amount
+  })();
+}
